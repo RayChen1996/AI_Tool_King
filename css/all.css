@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: white;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: 1px solid black;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #fff;
+  background-color: #020202;
+  line-height: 1.5;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.card_main {
+  width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  gap: 24px;
+}
+.card_main .card_child {
+  width: 32%;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px #f2f2f2 solid;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(33.33% - 12px);
+}
+.card_main .card_child img {
+  max-width: 100%;
+  width: 416px;
+  height: 312px;
+  vertical-align: middle;
+}
+.card_main .card_child .description {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 24px;
+  border: 1px solid #f2f2f2;
+}
+.card_main .card_child .description p {
+  color: #525252;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.card_main .card_child .description h3 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.card_main .card_child .AI_model_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px #F2F2F2 solid;
+  border-top: 1px solid #f2f2f2;
+}
+.card_main .card_child .AI_model_row h4 {
+  font-weight: 700;
+}
+.card_main .card_child .AI_model_row span {
+  font-weight: 400;
+}
+.card_main .card_child .card_bottom {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  line-height: 100%;
+  border-bottom: 1px #F2F2F2 solid;
+  border-top: 1px solid #f2f2f2;
+}
+.card_main .card_child .card_bottom span {
+  font-weight: 400;
+}/*# sourceMappingURL=all.css.map */
